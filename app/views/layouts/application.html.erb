@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  	<title>TaylorPortfolio</title>
+
+	<%= javascript_include_tag "application" %>
+  	<%= stylesheet_link_tag 'main.less', :rel => 'stylesheet/less' %>
+  	<%= csrf_meta_tags %>
+</head>
+<body>
+	<div class="container">
+		<%= yield %>
+	</div>
+</body>
+</html>
